@@ -6,7 +6,7 @@
 // number of goals the team scored, and the total number of goals the team
 // conceded.
 
-use std::collections::HashMap;
+use std::{collections::HashMap, ops::Index};
 
 // A structure to store the goal details of a team.
 #[derive(Default)]
